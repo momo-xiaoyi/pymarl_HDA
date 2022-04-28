@@ -32,7 +32,7 @@ The requirements.txt file can be used to install the necessary packages into a v
 
 ```shell
 # bash run_0.sh config_name_list map_name_list (threads_num arg_list gpu_list experinments_num)
-bash run_0.sh qmix_communicate_teach,qmix_communicate， 5m_vs_6m, 1 , 0, 3
+bash run_0.sh qmix,qmix_HDA， 5m_vs_6m, 1 , 0, 3
 ```
 
 `xxx_list` is separated by `,`.
