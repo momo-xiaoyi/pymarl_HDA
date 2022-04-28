@@ -1,0 +1,36 @@
+# --- QMIX specific parameters ---
+
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000
+
+runner: "episode"
+
+buffer_size: 5000
+
+# update the target network every {} episodes
+target_update_interval: 200
+
+# use the Q_Learner to train
+agent_output_type: "q"
+learner: "q_learner_low3"
+double_q: True
+mixer: "qmix"
+mixing_embed_dim: 32
+hypernet_layers: 2
+hypernet_embed: 64
+
+#hidden_com_dim: 8
+
+name: "qmix_lower_communicate_orig"
+
+agent: "rnn"
+mac: "basic_mac_all" 
+
+upper_mac: "basic_mac_all"
+agent_all: "rnn"
+if_lower: True
+
+# trained policy performance
