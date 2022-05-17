@@ -1,4 +1,4 @@
-# Rethink Individual Global Max
+# Rethinking Individual Global Max in Cooperative Multi-Agent Reinforcement Learning
 
 ## note
 This codebase is based on PyMARL and SMAC codebases which are open-sourced. The implementation of the following methods can also be found in this codebase, which are finished by the authors of following papers:
